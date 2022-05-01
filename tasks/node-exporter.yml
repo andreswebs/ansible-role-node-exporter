@@ -6,4 +6,3 @@
       - prometheus-node-exporter
   tags:
     - prometheus_node_exporter
-

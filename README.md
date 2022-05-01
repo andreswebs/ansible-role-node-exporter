@@ -1,11 +1,11 @@
-# ansible-role-prometheus-node-exporter
+# ansible-role-node-exporter
 
 Ansible role to install the Prometheus node_exporter.
 
 ## Install
 
 ```sh
-ansible-galaxy install andreswebs.prometheus-node-exporter
+ansible-galaxy install andreswebs.node_exporter
 ```
 
 ## Example Playbook
@@ -14,7 +14,7 @@ ansible-galaxy install andreswebs.prometheus-node-exporter
 ---
 - hosts: servers
   roles:
-    - role: andreswebs.prometheus-node-exporter
+    - role: andreswebs.node_exporter
 ```
 
 ## Authors

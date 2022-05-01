@@ -2,7 +2,7 @@
 galaxy_info:
   author: Andre Silva
   description: Installs the Prometheus node_exporter
-  role_name: prometheus-node-exporter
+  role_name: node_exporter
 
   license: Unlicense
 
@@ -18,6 +18,5 @@ galaxy_info:
 
   galaxy_tags:
     - prometheus
-    - node_exporter
 
 dependencies: []

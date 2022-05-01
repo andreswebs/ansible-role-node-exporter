@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - prometheus-node-exporter
+    - node_exporter
