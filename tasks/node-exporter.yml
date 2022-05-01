@@ -1,0 +1,9 @@
+---
+- name: Install node_exporter
+  ansible.builtin.apt:
+    update_cache: yes
+    name:
+      - prometheus-node-exporter
+  tags:
+    - prometheus_node_exporter
+
